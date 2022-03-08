@@ -1,3 +1,4 @@
 FROM ubuntu
 ARG message=helloworld
-RUN echo "The value of message is $message"
+ARG msg=hello
+RUN echo "The value of message and msg is $message, $msg"
